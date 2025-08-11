@@ -16,7 +16,7 @@ export default function Home() {
           <div className="flex gap-2 sm:gap-4">
             <Link
               href="/login"
-              className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm sm:text-base text-center"
+              className="text-gray-600 hover:text-gray-900 border border-gray-300 hover:border-gray-400 px-3 py-2 rounded-lg text-sm sm:text-base text-center"
             >
               ログイン
             </Link>
@@ -95,7 +95,7 @@ export default function Home() {
             今すぐ始めてみませんか？
           </h3>
           <p className="text-sm sm:text-base text-gray-600 mb-8">
-            アカウント作成は1分で完了。今日からもう食材を無駄にしません。
+            アカウントを作成すると、残り物やレシピを保存することができます。
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
@@ -106,7 +106,7 @@ export default function Home() {
             </Link>
             <Link
               href="/login"
-              className="text-gray-600 hover:text-gray-900 px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base w-full sm:w-auto text-center"
+              className="text-gray-600 hover:text-gray-900 border border-gray-300 hover:border-gray-400 px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-sm sm:text-base w-full sm:w-auto text-center"
             >
               既にアカウントをお持ちの方
             </Link>
